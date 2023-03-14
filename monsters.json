@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Blue", 
+		"adopt": "false"
+	},
+	{
+		"name": "Purply", 
+		"adopt": "true"
+	},
+	{
+		"name": "Greeny", 
+		"adopt": "false"
+	}
+]

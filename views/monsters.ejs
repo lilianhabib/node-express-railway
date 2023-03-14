@@ -1,0 +1,25 @@
+<%- include('header.ejs') %>
+<body>
+	<header>
+		<nav>
+			<a href='/'>Home</a>
+			<a href='/detail'>Monster</a>
+		</nav>
+	</header>
+	<main>
+		<h1>Monsters page</h1>
+		
+		<ul>
+
+			<% monsters.forEach(function(monster) { %>
+				<li>
+					<%= monster.name %>
+				</li>
+			<% }) %>
+		
+		</ul>
+
+	</main>
+
+
+<%- include('footer.ejs') %>
