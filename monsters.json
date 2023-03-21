@@ -1,14 +1,60 @@
 [
-	{
-		"name": "Blue", 
-		"adopt": "false"
-	},
-	{
-		"name": "Purply", 
-		"adopt": "true"
-	},
-	{
-		"name": "Greeny", 
-		"adopt": "false"
-	}
+    {
+        "id": "1",
+        "name": "Codey",
+        "adopt": "false",
+        "image": "codey.jpg",
+        "available": false,
+        "description": "Meet Codey, a beautiful and affectionate two-year-old calico monster. Codey has soft, multi-colored fur and striking green eyes. She loves to curl up on laps and snuggle with her humans, but also enjoys playing with toys and exploring her surroundings. Codey is already litter-box trained and has been spayed, so she's ready to settle into her new forever home. With her sweet personality and playful nature, Codey is sure to make a wonderful addition to any household."
+    },
+    {
+        "id": "2",
+        "name": "Limabean",
+        "adopt": "true",
+        "image": "limabean.jpg",
+        "available": false,
+        "description": "Meet Limabean, a handsome and playful one-year-old orange tabby. Limabean has a friendly and outgoing personality, and loves to play with toys and interact with his humans. He has short, soft fur that's easy to maintain, and he's already litter-box trained. Limabean is full of energy and would do well in a home where he can get lots of playtime and attention. With his adorable face and playful antics, Limabean is sure to bring lots of love and entertainment to his new family."
+    },
+    {
+        "id": "3",
+        "name": "Shadow",
+        "adopt": "false",
+        "image": "shadow.jpg",
+        "available": false,
+        "description": "Meet Shadow, a beautiful and mysterious three-year-old black cat. Shadow is a bit shy at first, but once he gets to know his humans he's incredibly affectionate and loves to cuddle up on laps. He has stunning yellow-green eyes that seem to change color in different lighting, and his fur is silky smooth. Shadow is already litter-box trained and has been neutered, so he's ready to find his forever home. With his calm demeanor and gentle nature, Shadow would make a wonderful addition to a home where he can receive lots of love and attention."
+
+    },
+    {
+        "id": "4",
+        "name": "Mr.Banana",
+        "adopt": "false",
+        "image": "mr-banana.jpg",
+        "available": true,
+        "description": "Meet Mr. Banana, a handsome and friendly two-year-old cat. Mr. Banana has a sunny disposition and loves to be around people. He has a beautiful coat that's soft to the touch and always seems to shine in the sunlight. Mr. Banana is already house-trained and has been neutered, so he's ready to find his forever home. He's also well-trained and knows several commands, making him a joy to be around. With his outgoing personality and loving nature, Mr. Banana would be a wonderful addition to any family looking for a loyal and affectionate companion."
+    },
+    {
+        "id": "5",
+        "name": "Orangina",
+        "adopt": "true",
+        "image": "orangina.jpg",
+        "available": false,
+        "description": "Meet Orangina, a spunky and playful six-month-old orange and white kitten. Orangina is full of energy and loves to play with toys and chase after anything that moves. She has bright, curious eyes and soft, fluffy fur. Orangina is still learning her manners, but she's already litter-box trained and eager to please her humans. With her playful personality and adorable antics, Orangina would be a great addition to a family looking for a fun-loving kitten to share their home with."
+
+    },
+    {
+        "id": "6",
+        "name": "Fragoo",
+        "adopt": "false",
+        "image": "fragoo.jpg",
+        "available": false,
+        "description": "Meet Fragoo, a playful and affectionate three-year-old gray and white domestic shorthair cat. Fragoo is always on the move, chasing toys and exploring his surroundings. He has beautiful green eyes that seem to sparkle with mischief and his fur is soft to the touch. Fragoo is already litter-box trained and has been neutered, so he's ready to settle into his new forever home. He loves attention and is always looking for a lap to snuggle in. With his playful personality and charming nature, Fragoo would be a great addition to any family looking for a fun-loving and affectionate feline companion."
+    },
+    {
+        "id": "7",
+        "name": "Miss. Reads-A-Lot",
+        "adopt": "false",
+        "image": "miss-reads-a-lot.jpg",
+        "available": true,
+        "description": "Meet Miss. Reads-A-Lot, a curious and intelligent one-year-old tuxedo cat. Miss. Reads-A-Lot has a beautiful black and white coat and bright green eyes that seem to follow everything going on around her. She is an avid reader and can often be found curled up with a good book or magazine. Miss. Reads-A-Lot is already litter-box trained and has been spayed, so she's ready to find her forever home. Although she's independent, she loves to spend time with her humans and enjoys a good cuddle session. With her unique personality and love for books, Miss. Reads-A-Lot would be a great addition to any family looking for a feline companion with a bit of extra charm."
+    }
 ]

@@ -1,0 +1,63 @@
+/*@import "developer.css";*/
+@import "meyer-reset"; 
+@import "settings";
+@import "setup";
+@import "typography";
+@import "monster";
+@import "detail";
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir, sans-serif; 
+}
+
+body {
+	padding: 0;
+	background-color: var(--highlight);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex-grow: 1; /*fill up available space + push the footer down*/
+}
+
+header {
+	background-color: var(--color);
+}
+
+inner-column {
+	display: block;
+	width: 98%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2vh;
+}
+
+
+img {
+	max-width: 200px;
+}
+
+
+.monster-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	gap: 10px;
+}
+
+
+footer {
+	display: block;
+	background-color: var(--color);
+	padding: 40px 5px;
+}
+

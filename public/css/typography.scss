@@ -1,0 +1,94 @@
+.loud-voice {
+	font-size: 50px;
+	font-weight: 700;
+	-webkit-text-stroke: 2px var(--white);
+	color: var(--white);
+	text-align: center;
+	padding-bottom: 5vh;
+}
+
+
+.normal-voice {
+	font-size: 15px;
+	color: var(--white);
+	text-decoration: none;
+	font-family: Avenir, sans-serif; 
+}
+
+.normal-voice:hover {
+	font-weight: 700;
+}
+
+
+.bold-voice {
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.strong-voice {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.little-voice {
+	font-size: 15px;
+	font-weight: 500;
+	text-align: center;
+	border: 1px solid var(--white);
+	padding: 10px;
+}
+
+
+.style-guide .loud-voice {
+	line-height: 1.1em;
+}
+
+.page-header .home .intro-voice {
+	font-size: 20px;
+}
+
+.home .intro-voice {
+	line-height: 1.3em;
+}
+
+
+.page-header .projects .intro-voice {
+	padding-top: 20px;
+}
+
+.link-voice {
+	text-decoration: none;
+	color: var(--black);
+}
+
+.link-voice:hover {
+	font-weight: 700;
+}
+
+
+/*responsive layout text*/
+
+.title-voice {
+	font-size: 70px;
+	font-weight: 900;
+	padding-bottom: 2vh;
+}
+
+.busy-voice {
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+.button-voice {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.intro-form .button-voice {
+	font-size: 10px;
+	font-weight: bolder;
+	
+}
+
+.descriptive-voice{
+  font-size: 10px}

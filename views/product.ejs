@@ -1,0 +1,11 @@
+<h1>Teas</h1>
+
+
+<% product.forEach(function(product){ %>
+	<%-ctx.prismicH.asHTML(product.data.name)%>
+	<%-ctx.prismicH.asHTML(product.data.description)%>
+	<img src='<%-ctx.prismicH.asImageSrc(product.data.image)%>'>
+<% }) %>
+
+
+

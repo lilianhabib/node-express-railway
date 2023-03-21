@@ -1,25 +1,35 @@
+
+
+
 <%- include('header.ejs') %>
 <body>
 	<header>
-		<nav>
-			<a href='/'>Home</a>
-			<a href='/detail'>Monster</a>
+		<nav class='monster-nav'>
+			<a class='normal-voice' href='/'>Home</a>
 		</nav>
 	</header>
 	<main>
-		<h1>Monsters page</h1>
-		
-		<ul>
+		<inner-column>
+			<h1 class='loud-voice'>Monsters</h1>
+
+			
+		<ul class='monster-list'>
 
 			<% monsters.forEach(function(monster) { %>
-				<li>
-					<%= monster.name %>
+				<li class='monster-item'>
+					<%- include('monster-card.ejs', {monster})%>
 				</li>
 			<% }) %>
-		
+	
 		</ul>
 
-	</main>
+
+
+</monster-card>
+
+			
+		</inner-column>
+		
 
 
 <%- include('footer.ejs') %>

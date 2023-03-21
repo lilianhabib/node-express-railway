@@ -1,0 +1,29 @@
+<%
+	
+	function adoptedStyle() {
+		if (monster.available) {
+			return "available"; 
+		}	
+	}
+	
+%>
+
+	<monster-card class='<%=adoptedStyle()%>'>
+		<picture class='img-container'> 
+			<img class='monster-img' src='images/<%=monster.image%>'>
+		</picture>
+		<p class='normal-voice monster-name'><%=monster.name%></p>
+
+		<% if (monster.available === false) { -%>
+			<a class='link-voice more-button' href='/detail/<%=monster.id%>'>
+				<span>Learn More</span>
+			</a>
+		<% } else { -%>
+			<a class='normal-voice adoption-container' href='/detail/<%=monster.id%>'>
+				<span>Pending</span>
+			</a>
+		<% } -%>
+	</monster-card>
+				
+
+		

@@ -1,11 +1,22 @@
+
+
+
 <%- include('header.ejs') %>
+
 <body>
 	<header>
-		<nav>
-			<a href='/detail'>Detail</a>
-			<a href='/monsters'>Monsters</a>
+		<nav class='monster-nav'>
+			<a class='normal-voice' href='/monsters'>Monsters</a>
+			<a class='normal-voice' href='/product'>Product</a>
 		</nav>
 	</header>
+	<main>
+		<inner-column>
+			<h1 class='loud-voice'>Home</h1>
+			
+			<p class='little-voice'>Welcome to our monster adoption site! We are dedicated to helping monster find their forever homes and to connecting loving monster adopters with their perfect feline companion. Our site features a wide variety of  monster of all ages, breeds, and personalities, so whether you're looking for a playful monster or a mellow senior monster, we have the purr-fect match for you. Each monster on our site has been fully vetted and is up-to-date on all necessary vaccinations, so you can adopt with confidence. Browse our site today and find your new monster friend!</p>
+
+		</inner-column>
 	
-	<h1>Home</h1>
+
 <%- include('footer.ejs') %>

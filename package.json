@@ -6,13 +6,23 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start:express": "npx nodemon",
+    "watch:sass": "sass --watch public/css/site.scss public/css/site-minified.css",
+    "start": "npm-run-all --parallel start:express watch:sass"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prismicio/client": "^6.7.3",
+    "@prismicio/helpers": "^2.3.9",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
     "nodemon": "^2.0.21"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.59.3"
   }
 }

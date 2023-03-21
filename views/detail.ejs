@@ -1,13 +1,28 @@
 <%- include('header.ejs') %>
+
 <body>
 	<header>
-		<nav>
-			<a href='/'>Home</a>
-			<a href='/monsters'>Monsters</a>
+		<nav class='monster-nav'>
+			<a class='normal-voice' href='/'>Home</a>
+			<a class='normal-voice' href='/monsters'>Monsters</a>
 		</nav>
 	</header>
 	<main>
-		<h1>Detail page</h1>
-	</main>
+		<inner-column>
+			<h1 class='loud-voice'><%=monster.name%></h1>
+			<ul class='detail-list'>
+
+				<li class='detail-item'>
+					<picture class='detail-img-container'>
+						<img class='detail-img' src='/images/<%=monster.image%>'>
+					</picture>
+
+					<p class='little-voice'><%=monster.description%></p>
+				</li>
+
+			</ul>
+		</inner-column>
+		
+
 
 <%- include('footer.ejs') %>
